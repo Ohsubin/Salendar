@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_myinfo"
+            android:icon="@drawable/icon_profile"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:title="내정보보기" />
+        <item
+            android:id="@+id/menu_manbogi"
+            android:icon="@drawable/icon_pedometer"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:title="만보기" />
+        <item
+            android:id="@+id/menu_youtube"
+            android:icon="@drawable/icon_sports"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:title="운동영상" />
+    </group>
+
+
+
+        <item android:title="Record">
+            <menu>
+                <item
+                    android:id="@+id/menu_water"
+                    android:icon="@drawable/waterfull"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:title="물 섭취량" />
+                <item
+                    android:id="@+id/menu_grape"
+                    android:icon="@drawable/icon_graph"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:title="그래프" />
+            <item
+                android:id="@+id/menu_photo"
+                android:icon="@drawable/icon_change"
+                android:fontFamily="@font/nanumbarunpenr"
+                android:title="몸 비교하기" />
+
+
+            </menu>
+        </item>
+
+<item android:title="Developer">
+    <menu>
+    <item
+        android:id="@+id/menu_developer"
+        android:icon="@drawable/icon_developer5"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:title="개발자정보" />
+    </menu>
+</item>
+</menu>

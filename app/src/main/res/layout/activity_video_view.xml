@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_rightbot3"
+    tools:context=".Video_View">
+
+    <view
+        android:id="@+id/youtubeView"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/youtubeButton"
+        android:layout_width="138dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/btn_play"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:foregroundGravity="center" />
+
+</LinearLayout>

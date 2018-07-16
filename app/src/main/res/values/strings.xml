@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Salendar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_prompt">간격을 선택하시오.</string>
+    <string-array name="time_array">
+        <item>30분 간격</item>
+        <item>1시간 간격</item>
+        <item>2시간 간격</item>
+        <item>3시간 간격</item>
+        <item>4시간 간격</item>
+        <item>5시간 간격</item>
+    </string-array>
+</resources>

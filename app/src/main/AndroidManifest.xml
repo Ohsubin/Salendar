@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_icon_1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Info" />
+        <activity android:name=".UpdateInfo" />
+        <activity android:name=".Water" />
+        <activity android:name=".Chart" />
+        <activity android:name=".Input" />
+        <activity android:name=".Chart_Frg1" />
+        <activity android:name=".Chart_Frg2" />
+        <activity android:name=".Chart_Frg3" />
+        <activity android:name=".Chart_Frg2_t1" />
+        <activity android:name=".Chart_Frg2_t2" />
+        <activity android:name=".Chart_Maker" />
+        <activity android:name=".Video" />
+        <activity android:name=".Video_View" />
+        <activity android:name=".Developer" />
+        <activity android:name=".Water_Alarm" />
+
+        <service
+            android:name=".MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".Manbogi" />
+
+        <receiver
+            android:name=".Water_Alarm_receiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Photo" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.user.project"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".Change_image"></activity>
+    </application>
+
+</manifest>

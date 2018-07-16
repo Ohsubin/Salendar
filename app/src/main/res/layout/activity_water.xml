@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rightbot"
+    android:orientation="vertical"
+    tools:context=".Water">
+
+    <TextView
+        android:id="@+id/manbogi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/title_drink"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/water1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+        <ImageView
+            android:id="@+id/water2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+        <ImageView
+            android:id="@+id/water3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/water4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+        <ImageView
+            android:id="@+id/water5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+        <ImageView
+            android:id="@+id/water6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/water7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/water8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_water4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#272727"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:onClick="onClick"
+            android:text="마시기"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#272727"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:onClick="onClick"
+            android:text="뱉기"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/set_Alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#272727"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:onClick="onClick"
+            android:text="알람설정"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/reset_Alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:background="#272727"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:onClick="onClick"
+            android:text="알람해제"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>

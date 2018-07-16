@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rightbot"
+    android:orientation="vertical"
+    tools:context=".Water_Alarm">
+
+    <TextView
+        android:id="@+id/manbogi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/title_alsetting"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <TimePicker
+        android:id="@+id/start_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/manbogi1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/title_intervalsetting"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:prompt="@string/time_prompt" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.5"
+        android:background="#272727"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:onClick="onClick"
+        android:text="설정 완료"
+        android:textColor="#ffffff" />
+
+  </LinearLayout>

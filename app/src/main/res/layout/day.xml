@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/day_cell_ll_background"
+    android:layout_width="55dp"
+    android:layout_height="52dp"
+    android:background="@drawable/calback_wb">
+
+    <ImageView
+        android:id="@+id/iv_selected"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:src="@drawable/calback_wb2"
+        android:visibility="invisible" />
+
+    <!-- 날짜 -->
+    <TextView
+        android:id="@+id/day_cell_tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:paddingRight="9dp"
+        android:text="11"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/day_cell_tv_day"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:text="TextView"
+        android:textSize="12sp" />
+
+    <!-- /날짜 -->
+
+
+</RelativeLayout>

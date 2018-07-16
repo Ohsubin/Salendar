@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rightbot"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/manbogi"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/title_change"
+            android:fontFamily="@font/nanumbarunpenr"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_name" />
+
+                <EditText
+                    android:id="@+id/idText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:ems="10"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_age" />
+
+                <EditText
+                    android:id="@+id/ageText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:ems="10"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:hint="Age"
+                    android:inputType="number"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_height" />
+
+                <EditText
+                    android:id="@+id/tallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:ems="10"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:hint="Tall"
+                    android:inputType="number"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_weight1" />
+
+                <EditText
+                    android:id="@+id/weightText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:ems="10"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:hint="weight"
+                    android:inputType="number"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_weight2" />
+
+                <EditText
+                    android:id="@+id/goalText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:ems="10"
+                    android:fontFamily="@font/nanumbarunpenr"
+                    android:hint="goal weight"
+                    android:inputType="number"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/profile_gender" />
+
+                <RadioGroup
+                    android:id="@+id/genderGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bar"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/genderWoman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fontFamily="@font/nanumbarunpenr"
+                        android:onClick="onGenderClick"
+                        android:text="여성" />
+
+                    <RadioButton
+                        android:id="@+id/genderMan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:fontFamily="@font/nanumbarunpenr"
+                        android:onClick="onGenderClick"
+                        android:text="남성" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="127dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#272727"
+                android:fontFamily="@font/nanumbarunpenr"
+                android:onClick="onClick"
+                android:text="수 정"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
